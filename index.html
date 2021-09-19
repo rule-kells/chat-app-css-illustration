@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <!-- displays site properly based on user's device -->
+
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.12.1/css/all.min.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Rubik:wght@400;500;700&display=swap" rel="stylesheet">
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+  <link rel="stylesheet" href="./css/styles.css">
+
+  <title>Frontend Mentor | Chat App</title>
+
+</head>
+
+<body>
+  <div class="container">
+    <div class="iphone">
+      <div class="display">
+        <section class="profile">
+          <div class="profile-chevron">&#x276C;</div>
+          <div class="profile-img-border"><img src="./images/avatar.jpg" alt="" class="avatar-pic"></div>
+          <div class="profile-content">
+            <h2 class="profile-name">Samuel Green</h2>
+            <p class="profile-status">Available to Walk</p>
+          </div>
+          <div class="profile-toggle-more"></div>
+        </section>
+        <div class="messages">
+          <div class="text-bubble-left text-bubble-left-1">
+            <p>That sounds great. I’d be happy with that.</p>
+          </div>
+          <div class="text-bubble-left text-bubble-left-2">
+            <p>Could you send over some pictures of your dog, please?</p>
+          </div>
+          <div class="dog-imgs">
+            <img src="./images/dog-image-1.jpg" alt="profile of a dog looking up with tongue out"
+              class="dog-img dog-img-1">
+            <img src="./images/dog-image-2.jpg" alt="a dog lying down with tognue out" class="dog-img dog-img-2">
+            <img src="./images/dog-image-3.jpg" alt="a dog with with a tree limb in its mouth"
+              class="dog-img dog-img-3">
+          </div>
+          <div class="text-bubble-right text-bubble-right-1">
+            <p>Here are a few pictures. She’s a happy girl!</p>
+          </div>
+          <div class="text-bubble-right text-bubble-right-2">
+            <p>Can you make it?</p>
+          </div>
+          <div class="text-bubble-left  text-bubble-left-3">
+            <p>
+              She looks so happy! The time we discussed works. How long shall I take her out
+              for?
+            </p>
+          </div>
+
+          <div class="pricing-grid pricing-grid-1">
+            <div type="radio" id="walkPriceChoice1" class="walk-prices-circle alk-prices-choice-1"></div>
+
+            <div class="walk-prices walk-prices-30">
+              <p>
+                30 minute walk
+              </p>
+              <p class="walk-prices-amt">$29</p>
+            </div>
+          </div>
+          <div class="pricing-grid pricing-grid-2">
+            <div type="radio" id="walkPriceChoice2" class="walk-prices-circle walk-prices-choice-2"></div>
+
+            <div class="walk-prices walk-prices-60">
+              <p>
+                1 hour walk
+              </p>
+              <p class="walk-prices-amt">$49</p>
+            </div>
+
+          </div>
+          <div class="type-a-message">
+            <input id="typeAMessage" type="text" placeholder="Type a message…">
+            <label for="typeAMessage"></label>
+            <button class="btn a-message-btn">&#x3e;</button>
+          </div>
+        </div>
+      </div>
+    </div>
+    <section class="simple-booking">
+      <h1 class="simple-booking-title">Simple booking</h1>
+      <p class="simple-booking-body">
+        Stay in touch with our dog walkers through the chat interface. This makes it easy to
+        discuss arrangements and make bookings. Once the walk has been completed you can rate
+        your walker and book again all through the chat.
+      </p>
+    </section>
+    <div class="attribution">
+      Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>.
+      Coded by <a href="#">Kellen Ruyle</a>.
+    </div>
+  </div>
+
+
+</body>
+
+</html>
